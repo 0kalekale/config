@@ -1,0 +1,7 @@
+shell:
+  program: /bin/zsh
+  args:
+  - --login
+  - -l
+  - -c
+  - "tmux attach || tmux"
