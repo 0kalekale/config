@@ -1,8 +1,12 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[2021-02-18-07-26-14-00]
+[/home/kalekale/docs]
 row=0
+col=0
+
+[/home/kalekale/data]
+row=5
 col=0
 
 [Trash]
