@@ -4,7 +4,7 @@
   <property name="configver" type="int" value="2"/>
   <property name="panels" type="array">
     <value type="int" value="1"/>
-    <property name="dark-mode" type="bool" value="true"/>
+    <property name="dark-mode" type="bool" value="false"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=6;x=0;y=0"/>
       <property name="length" type="uint" value="100"/>
@@ -15,8 +15,8 @@
         <value type="int" value="1"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
-        <value type="int" value="4"/>
         <value type="int" value="5"/>
+        <value type="int" value="4"/>
         <value type="int" value="6"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
@@ -28,7 +28,9 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="button-icon" type="string" value="/home/kalekale/data/pics/voidlogo.png"/>
+    </property>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
     </property>
@@ -36,13 +38,13 @@
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-4" type="string" value="pager"/>
     <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="steam"/>
         <value type="string" value="ozone x11"/>
         <value type="string" value="ibus-ui-gtk3"/>
         <value type="string" value="qbittorrent"/>
@@ -63,5 +65,6 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-14" type="string" value="actions"/>
+    <property name="plugin-4" type="string" value="pager"/>
   </property>
 </channel>

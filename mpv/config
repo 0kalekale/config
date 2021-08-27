@@ -1,5 +1,6 @@
 profile=gpu-hq
 hwdec=auto
+vo=gpu
 alang = 'jpn,jp,eng,en'
 slang = 'eng,en,enUS'
 demuxer-max-bytes=150000000 # Max pre-load for network streams (1 MiB = 1048576 Bytes).
