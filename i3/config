@@ -181,7 +181,8 @@ bar {
         #status_command i3status
 }
 
-exec picom -cCGb --backend glx 
-exec feh --bg-scale ~/data/important/Anime-Wall/ladaybern.jpg
+exec picom -cCGb --backend glx --config ~/.config/picom.conf 
+#exec feh --bg-scale ~/data/important/Anime-Wall/ladaybern.jpg
+exec nitrogen --restore &
 for_window [class="^.*"] border pixel 0
 
