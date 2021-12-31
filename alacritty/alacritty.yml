@@ -6,7 +6,7 @@ shell:
   - -c
   - "tmux attach || tmux"
 
-background_opacity: 0.7
+background_opacity: 0.8
 
 # Colors (Solarized Light)
 #colors:
